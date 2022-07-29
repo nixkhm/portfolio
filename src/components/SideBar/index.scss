@@ -1,0 +1,132 @@
+.nav{
+    background: #181818;    //color of sidebar
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+
+    .logo{
+        display: block;
+        padding: 20px 0;
+
+        img {
+            display: block;
+            margin: 15px auto;
+            width: 37px;    //size of logo
+            height: auto;
+
+            &.logoSubtitle {
+                width:75px;
+                padding-left: 4px; //size of the subtitle
+            }
+        }
+    }
+
+    nav{
+        display: block;
+        text-align: center;
+        position: absolute;
+        height: 210px;
+        top: 50%;
+        margin-top: -120px;
+        width: 100%;
+
+        a{
+            font-size: 30px;
+            color: #fffdd0;
+            display: block;
+            line-height: 70px;
+            height: 70px;
+            position: relative;
+            text-decoration: none;
+
+        i{
+            transition: all 0.3s ease-out;
+        }
+
+        &:hover {
+            color: #b6510d;
+        
+
+        svg{
+            opacity: 0;
+        }
+
+        &:after{
+            opacity: 1;
+        }
+    }
+
+    &:after{
+        content: '';
+        font-family: 'Coolvetica';
+        font-size: 15px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transform: all 0.3s ease-out;
+    }
+
+    &:first-child{
+        &:after{
+            content: 'home';
+            }
+        }
+    }
+
+    a.about-link{
+        &:after{
+            content: 'about';
+        }
+    }
+
+    a.projects-link{
+        &:after{
+            content: 'projects';
+        }
+    }
+
+    a.contact-link{
+        &:after{
+            content: 'contact';
+        }
+    }
+
+    a.active{
+        svg{
+            color: #b6510d;
+        }
+    }
+    
+    }   
+
+    ul{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+
+        li{
+            a{
+                padding: 7px 0;
+                display: block;
+                font-size: 22px;
+                line-height: 16px;
+
+                &:hover svg{
+                    color:#b6510d
+                }
+            }
+        }
+    }
+}
