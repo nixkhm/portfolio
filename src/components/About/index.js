@@ -33,9 +33,13 @@ const About = () => {
             />
           </h1>
           <p>
-            I am a Junior Computer Science major with a strong interest in
-            Software Development. I have worked on many personal projects in the
-            field of software development that are displayed on my GitHub page.
+            I am a Junior Computer Science student with a passion within the
+            Software Engineering field. I have worked on personal projects
+            facilitating concepts of Object-Oriented design as well as Data
+            Structures & Algorithms. Currently working within the Technical
+            Support Help Desk has enabled me to sharpen my Software Design
+            skills and troubleshoot any unforeseen errors thrown within various
+            applications in multiple programming languages
           </p>
         </div>
 

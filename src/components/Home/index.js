@@ -71,8 +71,6 @@ const Home = () => {
             contact me
           </Link>
         </div>
-
-        <Logo />
       </div>
 
       <Loader type="ball-clip-rotate-multiple" />
