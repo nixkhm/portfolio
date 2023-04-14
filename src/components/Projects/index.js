@@ -38,17 +38,10 @@ const Projects = () => {
                   rel="noreferrer"
                   href="https://nixkhm.github.io/Pacman-Clone/"
                 >
-                  <img src={pacman} />
-                </a>
-              </li>
-
-              <li>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://nixkhm.github.io/Sorting-Algorithm-Visualizer/"
-                >
-                  <img src={sorting} />
+                  <img
+                    src={pacman}
+                    alt="Pac Man Game clone, developed by Nicholas Masters"
+                  />
                 </a>
               </li>
             </ul>
@@ -56,7 +49,10 @@ const Projects = () => {
             <ul className="row1">
               <li>
                 <a target="_blank" rel="noreferrer" href="/">
-                  <img src={port} />
+                  <img
+                    src={port}
+                    alt="Portfolio Website, developed by Nicholas Masters"
+                  />
                 </a>
               </li>
             </ul>
