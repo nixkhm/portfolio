@@ -66,7 +66,7 @@ const Home = () => {
               index={35}
             />
           </h1>
-          <h2>st. john's university / pursuing software engineering</h2>
+          <h2 style={{fontSize:'20px'}}>software engineer / st. john's university</h2>
           <Link to="/contact" className="flat-button">
             contact me
           </Link>

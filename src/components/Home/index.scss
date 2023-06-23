@@ -1,5 +1,5 @@
-.homepage{
-    .text-zone{
+.homepage {
+    .text-zone {
         position: absolute;
         left: 10%;
         top: 50%;
@@ -9,13 +9,13 @@
         max-height: 90%;
     }
 
-    h1{
+    h1 {
         color: #fffdd0;
         font-size: 70px;
         margin: 0;
         font-weight: 400;
 
-        &::before{
+        &::before {
             content: '<h1>';
             font-family: 'La Belle Aurore';
             color: #b6510d;
@@ -27,7 +27,7 @@
 
         }
 
-        &::after{
+        &::after {
             content: '</h1>';
             font-family: 'La Belle Aurore';
             color: #b6510d;
@@ -40,7 +40,7 @@
         }
 
 
-        img{
+        img {
             width: 38px;
             margin-left: 15px;
             margin-top: 4px;
@@ -53,7 +53,7 @@
         }
     }
 
-    h2{
+    h2 {
         color: #fffdd0;
         opacity: 0.60;
         margin-top: 17px;
@@ -66,7 +66,7 @@
 
     }
 
-    .flat-button{
+    .flat-button {
         color: #b6510d;
         font-size: 20px;
         letter-spacing: 4px;
@@ -80,13 +80,12 @@
         white-space: nowrap;
         border-radius: 150px;
 
-        &:hover{
+        &:hover {
             background: #b6510d;
             color: #fffdd0;
         }
     }
 
-    
+
 
 }
-
