@@ -33,13 +33,12 @@ const About = () => {
             />
           </h1>
           <p>
-            I am a Junior Computer Science student with a passion within the
-            Software Engineering field. I have worked on personal projects
-            facilitating concepts of Object-Oriented design as well as Data
-            Structures & Algorithms. Currently working within the Technical
-            Support Help Desk has enabled me to sharpen my Software Design
-            skills and troubleshoot any unforeseen errors thrown within various
-            applications in multiple programming languages
+            Hello, and thank you for visiting my site!
+            <br></br>In my free time I love to code and learn new technologies
+            <br></br>As of May 2024, I will have completed my Bachelor of
+            Science, Computer Science at St. John's University
+            <br></br>I will be working as an Associate Software Engineer at
+            EverBright post graduation, after an internship in Summer 2023
           </p>
         </div>
 

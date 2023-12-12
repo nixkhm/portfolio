@@ -2,9 +2,7 @@ import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Loader from 'react-loaders'
-import pacman from '../../assets/imgs/Pacman.png'
-import sorting from '../../assets/imgs/Sorting.png'
-import port from '../../assets/imgs/port.png'
+import spotify from '../../assets/imgs/spot_by_nick.png'
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -31,27 +29,16 @@ const Projects = () => {
             <p>Here are some of the projects that I have developed</p>
           </div>
           <div className="projects">
-            <ul className="row2">
+            <ul>
               <li>
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://nixkhm.github.io/Pacman-Clone/"
+                  href="https://spotify-by-nick.vercel.app/"
                 >
                   <img
-                    src={pacman}
-                    alt="Pac Man Game clone, developed by Nicholas Masters"
-                  />
-                </a>
-              </li>
-            </ul>
-
-            <ul className="row1">
-              <li>
-                <a target="_blank" rel="noreferrer" href="/">
-                  <img
-                    src={port}
-                    alt="Portfolio Website, developed by Nicholas Masters"
+                    src={spotify}
+                    alt="Spotify clone, developed by Nicholas Masters"
                   />
                 </a>
               </li>

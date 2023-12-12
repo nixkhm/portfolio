@@ -3,31 +3,31 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
 import Loader from 'react-loaders'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['i', 'c', 'k']
   const positionArray = [
-    'c',
-    'o',
-    'm',
-    'p',
-    'u',
-    't',
-    'e',
-    'r',
-    ' ',
     's',
-    'c',
-    'i',
+    'o',
+    'f',
+    't',
+    'w',
+    'a',
+    'r',
+    'e',
+    ' ',
     'e',
     'n',
-    'c',
+    'g',
+    'i',
+    'n',
     'e',
+    'e',
+    'r',
   ]
-  const studentArray = ['s', 't', 'u', 'd', 'e', 'n', 't']
+  const studentArray = []
 
   useEffect(() => {
     setTimeout(() => {
@@ -66,7 +66,7 @@ const Home = () => {
               index={35}
             />
           </h1>
-          <h2 style={{fontSize:'20px'}}>software engineer / st. john's university</h2>
+          <h2 style={{ fontSize: '20px' }}>new york, ny</h2>
           <Link to="/contact" className="flat-button">
             contact me
           </Link>
