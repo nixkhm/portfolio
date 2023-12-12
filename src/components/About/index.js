@@ -32,13 +32,17 @@ const About = () => {
               index={15}
             />
           </h1>
-          <p>
+          <p className="bio">
             Hello, and thank you for visiting my site!
-            <br></br>In my free time I love to code and learn new technologies
+            <br></br>I enjoy coding and discovering new technologies in my spare
+            time
             <br></br>As of May 2024, I will have completed my Bachelor of
             Science, Computer Science at St. John's University
-            <br></br>I will be working as an Associate Software Engineer at
-            EverBright post graduation, after an internship in Summer 2023
+            <br></br>Most recently, I was a Software Engineer Intern at
+            EverBright Solar during a internship in Summer 2023.
+            <br></br>I'm a huge Evertonian and love watching soccer on weekends
+            <br></br>I am looking to challenge myself to step outside of my
+            comfort zone and familiarize myself with approaching obstacles
           </p>
         </div>
 
