@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Loader from 'react-loaders'
 import spotify from '../../assets/imgs/spot_by_nick.png'
+import mstevens from '../../assets/imgs/mstevens.png'
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -39,6 +40,18 @@ const Projects = () => {
                   <img
                     src={spotify}
                     alt="Spotify clone, developed by Nicholas Masters"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://mstevensroofing.vercel.app/"
+                >
+                  <img
+                    src={mstevens}
+                    alt="M. Stevens Roofing, developed by Nicholas Masters"
                   />
                 </a>
               </li>
